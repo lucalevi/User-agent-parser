@@ -40,7 +40,6 @@ deviceFile = 'device_count.xlsx'
 plotOsFileName = 'piechart_os.png'
 plotBrowserFileName = 'piechart_browser.png'
 plotDeviceFileName = 'piechart_device.png'
-4. Open a terminal in the folder and run
 ```
 3. Open a terminal in the created folder and run:
 ```
