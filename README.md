@@ -8,7 +8,7 @@ Python 3.9.7
 ### Python libraries
 Install the following libraries before running the script:
 * [pandas](https://pandas.pydata.org/)
-  * Install anaconda or miniconda as described [here](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html), then open a terminal and run
+  * Install anaconda or miniconda as described [here](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html), then open a terminal and run:
   ```
   $ conda install pandas
   ```
