@@ -39,7 +39,8 @@ python3 ua_parsing.py
 ![Parsed UserAgent data](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_parsed.png "Parsed UserAgent data")
 
 6. Afterwards, some statistics are calculated to verify the shares in the data among the Operative Systems, browsers and device type used. 
- * The script outputs three Excel tables, one for each share (OS, browser, device type) 
+ * The script outputs three Excel tables, one for each share (OS, browser, device type)
+  
  ![Example of output table](https://github.com/lucalevi/User-agent-parser/blob/main/OS_count.png "Example of OS output table")
  * it plots the data graphically with pie charts.
  ![Example of OS share pie chart](https://github.com/lucalevi/User-agent-parser/blob/main/piechart_os.png "Example of OS share pie chart")
