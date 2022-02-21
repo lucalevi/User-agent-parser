@@ -18,7 +18,7 @@ __author__ = 'Luca Iacolettig'
 __copyright__ = 'Copyright 2022, skitourenguru.ch'
 __email__ = 'iacolettig.luca@gmail.com'
 __version__ = '1.2'
-__license__ = '?'
+__license__ = 'GNU GPL v3'
 
 #
 # Import modules
