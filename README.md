@@ -7,23 +7,23 @@ Python 3.9.7
 
 ### Python libraries
 Install the following libraries before running the script:
-* pandas
+* [pandas](https://pandas.pydata.org/)
   * Install anaconda or miniconda as described [here](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html), then open a terminal and run
   ```
   $ conda install pandas
   ```
-* openpyxl
-  * In a terminal run
+* [openpyxl](https://openpyxl.readthedocs.io/en/stable/)
+  * In a terminal, run:
   ```
   $ pip install openpyxl
   ```
 * [ua_parser](https://github.com/ua-parser/uap-python)
-  * In a terminal run
+  * In a terminal, run:
   ```
   $ pip install ua_parser
   ```
-* matplotlib.pyplot
-  * In a terminal, run
+* [matplotlib.pyplot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html)
+  * In a terminal, run:
   ```
   $ python -m pip install -U pip
   $ python -m pip install -U matplotlib 
