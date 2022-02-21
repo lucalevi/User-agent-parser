@@ -24,6 +24,7 @@ __license__ = 'GNU GPL v3'
 # Import modules
 #
 import pandas as pd
+from sys import argv
 
 # Read/write Excel xlsx files
 import openpyxl     
@@ -333,7 +334,8 @@ def plot(df, file):
 
 # Define the initial variables 
 # File paths of input and output files
-inputFileName = 'Unique_UserAgents_sample.xlsx'
+script, inputFileName = argv
+#inputFileName = 'Unique_UserAgents_sample.xlsx'
 outputFileName = 'Unique_UserAgents_parsed.xlsx'
 osFile = 'OS_count.xlsx'
 browserFile = 'browse_count.xlsx'
