@@ -43,9 +43,9 @@ plotDeviceFileName = 'piechart_device.png'
 ```
 3. Open a terminal in the created folder and run:
 ```
-python3 ua_parsing.py 'yourfilename.xlsx'
+python3 ua_parsing.py yourfilename.xlsx
 ```
-4. If you use the data of this example, you can sobstiute 'yourfilename.xlsx' with 'Unique_UserAgents_sample.xlsx' (which is [this](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_sample.xlsx) file)
+4. If you use the data of this example, you can sobstiute yourfilename.xlsx with Unique_UserAgents_sample.xlsx (which is [this](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_sample.xlsx) file)
 5. As output, you will have an Excel table of the parsed UserAgent data ([here](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_parsed.xlsx) an example).
 ![Parsed UserAgent data](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_parsed.png "Parsed UserAgent data")
 
