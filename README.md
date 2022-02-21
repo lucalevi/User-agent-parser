@@ -6,10 +6,16 @@ Python script that parses an Excel table of UserAgents together with their count
 Python 3.9.7
 
 ### Python libraries
+Install the following libraries before running the script:
 * pandas 
 * openpyxl
 * [ua_parser](https://github.com/ua-parser/uap-python)
 * matplotlib.pyplot
+
+In a terminal, use the follwing command to install the libraries. Change "name" to the wished library
+```
+$ pip install name
+```
 
 ## Usage example
 1. Create a folder with [ua_parsing.py](https://github.com/lucalevi/User-agent-parser/blob/main/ua_parsing.py) and your Excel table of UserAgents and relative count number (cnt). We will use [Unique_UserAgents_sample.xlsx](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_sample.xlsx).
@@ -30,9 +36,11 @@ plotDeviceFileName = 'piechart_device.png'
 python3 ua_parsing.py
 ```
 5. As output, you will have an Excel table of the parsed UserAgent data ([here](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_parsed.xlsx) an example).
+
+
 6. Afterwards, some statistics are calculated to verify the shares in the data among the Operative Systems, browsers and device type used. 
-7. The script then outputs three Excel tables, one for each share (OS, browser, device type) and 
-8. plots the data graphically with pie charts. You find sample outputs in the repo.
+ * The script outputs three Excel tables, one for each share (OS, browser, device type) and 
+ * it plots the data graphically with pie charts.
 
 
 ## What's in this repo
