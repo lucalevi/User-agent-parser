@@ -4,6 +4,7 @@ Python script that parses an Excel table of UserAgents together with their count
 ## Usage example
 
 
+
 ## What's in this repo
 The main script is ua_parsing.py.
 It is a Python3 script that parses the sample Excel table "Unique_UserAgents_sample.xlsx" thanks to the module [ua_parser](https://github.com/ua-parser/uap-python).
@@ -36,10 +37,10 @@ Afterwards, some statistics are calculated to verify the shares in the data amon
 
 ## Release History
 * 1.2 
-* * The first proper release
+  * The first proper release
 
 ## Meta
 
 Author: Luca Iacolettig - iacolettig(dot)luca(at)gmail.com
 
-Distributed under the GNU GPL v3 license. See LICENSE for more information.
+Distributed under the GNU GPL v3 license. See [LICENSE](..User-agent-parser/LICENSE) for more information.
