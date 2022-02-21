@@ -12,22 +12,37 @@ Python 3.9.7
 * matplotlib.pyplot
 
 ## Usage example
-1. Create a folder with [ua_parsing.py](https://github.com/lucalevi/User-agent-parser/blob/main/ua_parsing.py) and your Excel table of UserAgents and count number. We will use [Unique_UserAgents_sample.xlsx](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_sample.xlsx).
-2. Open a terminal in the folder and run
+1. Create a folder with [ua_parsing.py](https://github.com/lucalevi/User-agent-parser/blob/main/ua_parsing.py) and your Excel table of UserAgents and relative count number (cnt). We will use [Unique_UserAgents_sample.xlsx](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_sample.xlsx).
+2. In the [script](https://github.com/lucalevi/User-agent-parser/blob/main/ua_parsing.py), adapt the following lines according to your need. Most likely, you will have a different inputFileName
+```python
+inputFileName = 'Unique_UserAgents_sample.xlsx'
+outputFileName = 'Unique_UserAgents_parsed.xlsx'
+osFile = 'OS_count.xlsx'
+browserFile = 'browse_count.xlsx'
+deviceFile = 'device_count.xlsx'
+plotOsFileName = 'piechart_os.png'
+plotBrowserFileName = 'piechart_browser.png'
+plotDeviceFileName = 'piechart_device.png'
+4. Open a terminal in the folder and run
+```
+3. Open a terminal in the created folder and run
 ```
 python3 ua_parsing.py
 ```
-3. Let the program run.
-
-As output, you will have an Excel table of the parsed UserAgent data ([here](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_parsed.xlsx) an example) 
-
-Afterwards, some statistics are calculated to verify the shares in the data among the Operative Systems, browsers and device type used. The script then outputs three Excel tables, one for each share (OS, browser, device type) and plots the data graphically with pie charts. You find sample outputs in the repo.
+4. Let the program run.
+5. As output, you will have an Excel table of the parsed UserAgent data ([here](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_parsed.xlsx) an example) 
+6. Afterwards, some statistics are calculated to verify the shares in the data among the Operative Systems, browsers and device type used. 
+7. The script then outputs three Excel tables, one for each share (OS, browser, device type) and 
+8. plots the data graphically with pie charts. You find sample outputs in the repo.
 
 
 ## What's in this repo
-The main script is ua_parsing.py.
-It is a Python3 script that parses the sample Excel table "Unique_UserAgents_sample.xlsx" thanks to the module [ua_parser](https://github.com/ua-parser/uap-python).
-
+The main files in this repo are:
+* [ua_parsing.py](https://github.com/lucalevi/User-agent-parser/blob/main/ua_parsing.py): the Python script that parses the user agent data
+* [Unique_UserAgents_sample.xlsx](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_sample.xlsx): sample table of unique UserAgents and their relative count number (these are e.g. counts of how many unique UserAgents clicked on a certain web page.)
+* [Unique_UserAgents_parsed.xlsx](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_parsed.xlsx): output table of the parsed data. It contains multiple columns with information about Operative System, browser and device type used, together with the count number of the input table.
+* [OS_count.xlsx](https://github.com/lucalevi/User-agent-parser/blob/main/OS_count.xlsx), [browse_count.xlsx](https://github.com/lucalevi/User-agent-parser/blob/main/browse_count.xlsx) and [device_count.xlsx](https://github.com/lucalevi/User-agent-parser/blob/main/device_count.xlsx): three sample output tables calculated by the script. They are obtained by a groupby() function.
+* [piechart_os.png](https://github.com/lucalevi/User-agent-parser/blob/main/piechart_os.png), [piechart_browser.png](https://github.com/lucalevi/User-agent-parser/blob/main/piechart_browser.png) and [piechart_device.png](https://github.com/lucalevi/User-agent-parser/blob/main/piechart_device.png): the pie charts plotted based on the output tables of the previous point.
 
 
 ### Which OSs, browsers and device types are included in the data analysis?
