@@ -7,15 +7,27 @@ Python 3.9.7
 
 ### Python libraries
 Install the following libraries before running the script:
-* pandas 
+* pandas
+  * Install anaconda or miniconda as described [here](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html), then open a terminal and run
+  ```
+  $ conda install pandas
+  ```
 * openpyxl
+  * In a terminal run
+  ```
+  $ pip install openpyxl
+  ```
 * [ua_parser](https://github.com/ua-parser/uap-python)
+  * In a terminal run
+  ```
+  $ pip install ua_parser
+  ```
 * matplotlib.pyplot
-
-In a terminal, use the follwing command to install the libraries. Change "name" to the wished library
-```
-$ pip install name
-```
+  * In a terminal, run
+  ```
+  $ python -m pip install -U pip
+  $ python -m pip install -U matplotlib 
+  ```
 
 ## Usage example
 1. Create a folder with [ua_parsing.py](https://github.com/lucalevi/User-agent-parser/blob/main/ua_parsing.py) and your Excel table of UserAgents and relative count number (cnt). We will use [Unique_UserAgents_sample.xlsx](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_sample.xlsx).
