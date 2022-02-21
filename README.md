@@ -88,9 +88,6 @@ The main files in this repo are:
 * Mobile (smartphones + tablets)
 
 
-## Release History
-* 1.2 
-  * The first proper release
 
 ## Meta
 
