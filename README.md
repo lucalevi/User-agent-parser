@@ -31,9 +31,8 @@ Install the following libraries before running the script:
 
 ## Usage example
 1. Create a folder with [ua_parsing.py](https://github.com/lucalevi/User-agent-parser/blob/main/ua_parsing.py) and your Excel table of UserAgents and relative count number (cnt). We will use [Unique_UserAgents_sample.xlsx](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_sample.xlsx).
-2. In the [script](https://github.com/lucalevi/User-agent-parser/blob/main/ua_parsing.py), adapt the following lines according to your need. Most likely, you will have a different inputFileName.
+2. In the [script](https://github.com/lucalevi/User-agent-parser/blob/main/ua_parsing.py), you can adapt the following lines according to your need, if you want different output file names 
 ```python
-inputFileName = 'Unique_UserAgents_sample.xlsx'
 outputFileName = 'Unique_UserAgents_parsed.xlsx'
 osFile = 'OS_count.xlsx'
 browserFile = 'browse_count.xlsx'
@@ -45,8 +44,9 @@ plotDeviceFileName = 'piechart_device.png'
 ```
 3. Open a terminal in the created folder and run:
 ```
-python3 ua_parsing.py
+python3 ua_parsing.py 'yourfilename.xlsx'
 ```
+4. If you use the data of this example, you can sobstiute 'yourfilename.xlsx' with 'Unique_UserAgents_sample.xlsx' (which is [this](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_sample.xlsx) file)
 5. As output, you will have an Excel table of the parsed UserAgent data ([here](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_parsed.xlsx) an example).
 ![Parsed UserAgent data](https://github.com/lucalevi/User-agent-parser/blob/main/Unique_UserAgents_parsed.png "Parsed UserAgent data")
 
